@@ -57,10 +57,3 @@ class TableHandler:
         return entry[0].JobNumber
 
 
-
-'''
-Test Data:
-entry = {'Timestamp': '1907983', 'Job': '12', 'Status': 'SUCCESS', 'Url': 'https://azjenkinscore.corp.microsoft.com:8080/job/engsys/job/devservices/job/engpipe/job/workflows/job/cloudvault/job/launchdownloadbuilds/130/', 'duration': '1466040000000', 'BranchName':'rd_store_stable', 'RowKey': '130', 'Duration': '1466040000000', 'BuildNumber': '49.2.6898.226.amd64fre.rd_store_stable.160612-2224'}
-
-entry = {'PartitionKey':'jenkinsdata', 'Timestamp': '1907983', 'Job': '1', 'Status': 'SUCCESS', 'Url': 'https://azjenkinscore.corp.microsoft.com:8080/job/engsys/job/devservices/job/engpipe/job/workflows/job/cloudvault/job/launchdownloadbuilds/130/', 'duration': '1466040000000', 'BranchName':'rd_store_stable', 'RowKey': '.130', 'Duration': '1466040000000', 'BuildNumber': '49.2.6898.226.amd64fre.rd_store_stable.160612-2224'}
-'''
