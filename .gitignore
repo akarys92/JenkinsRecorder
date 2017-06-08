@@ -1,0 +1,6 @@
+Config/*
+**/*.csv
+*.pyc
+Logs/*
+dist/*
+build/*
